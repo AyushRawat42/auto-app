@@ -1,0 +1,362 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #f50404;
+}
+
+/* Header Styles */
+.header_area {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+.nav-brand img {
+    max-height: 50px;
+}
+
+.classynav ul li a {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 15px;
+}
+
+.classynav ul li a:hover {
+    color: #f50404;
+}
+
+.header-meta .search-area input {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.header-meta .cart-area img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+/* Popup Styles */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup-banner h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.popup-banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.call-button {
+    background-color: #f50404;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.call-button:hover {
+    background-color: #d80303;
+}
+
+/* Quote Section Styles */
+.quote-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.quote-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote-form-group {
+    margin-bottom: 15px;
+}
+
+.quote-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.quote-form-group input,
+.quote-form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.quote-form-button {
+    background-color: #f50404;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quote-form-button:hover {
+    background-color: #d80303;
+}
+
+/* Product Slider Styles */
+.owl-carousel .single-product-wrapper {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.owl-carousel .product-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.owl-carousel .product-description h6 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.owl-carousel .product-price {
+    font-size: 16px;
+    color: #f50404;
+    font-weight: 600;
+}
+
+.owl-carousel .add-to-cart-btn {
+    margin-top: 15px;
+}
+
+.owl-carousel .btn.essence-btn {
+    background-color: #f50404;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.owl-carousel .btn.essence-btn:hover {
+    background-color: #d80303;
+}
+
+/* Footer Styles */
+.footer_area {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-logo img {
+    max-height: 50px;
+}
+
+.footer_menu ul,
+.footer_widget_menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_menu ul li,
+.footer_widget_menu ul li {
+    margin-bottom: 10px;
+}
+
+.footer_menu ul li a,
+.footer_widget_menu ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer_menu ul li a:hover,
+.footer_widget_menu ul li a:hover {
+    color: #f50404;
+}
+
+.footer_social_area a {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.footer_social_area a:hover {
+    color: #f50404;
+}
+
+.subscribtion_form input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribtion_form button {
+    background-color: #f50404;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribtion_form button:hover {
+    background-color: #d80303;
+}
+
+/* Sticky Footer Styles */
+.sticky-footer {
+    position: inherit;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f50404;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.sticky-footer .phone-info img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.sticky-footer .call-us-btn .btn {
+    background-color: #fff;
+    color: #f50404;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.sticky-footer .call-us-btn .btn:hover {
+    background-color: #f9f9f9;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%;
+    }
+
+    .quote-form-container {
+        padding: 15px;
+    }
+
+    .footer_menu,
+    .footer_widget_menu {
+        text-align: center;
+    }
+
+    .footer_social_area {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .subscribtion_form input {
+        width: 60%;
+    }
+}
