@@ -1,4 +1,54 @@
 /* General Styles */
+.classy-nav-container {
+    position: relative;
+    z-index: 100;
+    background-color: #252525;
+}
+
+.themevale_column.themevale_customColumn.themevale_column--col3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.midd-banner {
+    background-image: url(img/bg-img/banner-mid.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.halo-section.banner-block-4 {
+    background-color: #d4d4d4;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
