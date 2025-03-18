@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public'))); // Serve static files
 
 // Routes
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, 'homepage.html'));
 });
 
 // Handle Contact Form Submission
@@ -48,14 +48,16 @@ app.post('/contact', (req, res) => {
     });
 });
 
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/autoparts', { useNewUrlParser: true, useUnifiedTopology: true });
 // Handle Quote Form Submission
-app.post('/quote', (req, res) => {
-    const { name, email, phone, year, make_model, part } = req.body;
+// app.post('/quote', (req, res) => {
+    // const { name, email, phone, year, make_model, part } = req.body;
 
     // Save to database or send email (similar to contact form)
-    console.log('Quote Request:', { name, email, phone, year, make_model, part });
-    res.status(200).send('Quote request received!');
-});
+    // console.log('Quote Request:', { name, email, phone, year, make_model, part });
+    // res.status(200).send('Quote request received!');
+// });
 
 // Start the server
 app.listen(PORT, () => {
